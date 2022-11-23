@@ -35,10 +35,10 @@ body {
 :focus {
   transition: var(--transition-duration) var(--cubic-bezier);
 }
-.contacts {
+.contact-header {
   fill: var(--grey-text-normal);
 }
-.icon-contact:hover,
+.contact-header__icon:hover,
 a:focus,
 a:hover {
   fill: var(--blue);
@@ -129,28 +129,26 @@ h3 {
 .header {
   border-bottom: 1px solid var(--border-header);
 }
-.contact-mail,
-.contacts {
+.contact-header__item,
+.contact-header {
   display: flex;
   align-items: center;
 }
-.nav-header {
+.navigation {
   display: flex;
   align-items: center;
   gap: 46px;
 }
-.nav-header-item,
-.contact-mail,
-.contact-tel,
+.pages-navigation__item,
+.contact-header__item,
 .portfolio-list {
   text-decoration: none;
 }
-.contact-mail,
-.contact-tel,
-.icon-contact {
+.contact-header__item,
+.contact-header__icon {
   display: flex;
 }
-.nav-header-item {
+.pages-navigation__item {
   justify-content: space-between;
   align-items: center;
   color: var(--black-title);
@@ -159,12 +157,12 @@ h3 {
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
-.contacts {
+.contact-header {
   margin-left: auto;
   justify-content: flex-end;
   gap: 30px;
 }
-.logo {
+.logo--header {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -175,14 +173,13 @@ h3 {
   margin-right: 93px;
   text-align: left;
 }
-.contact-mail,
-.contact-tel {
+.contact-header__item {
   font-size: 14px;
   font-weight: 500;
   color: var(--grey-text-normal);
   text-align: left;
 }
-.icon-contact {
+.contact-header__icon {
   margin-right: 10px;
 }
 
@@ -270,7 +267,7 @@ h3 {
   border-radius: 4px;
   position: relative;
 }
-.btn-close {
+.modal__close-btn {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -282,12 +279,12 @@ h3 {
   background-color: var(--white);
   cursor: pointer;
 }
-.icon-close {
+.modal__close-icon {
   margin: auto;
   width: 18px;
   height: 18px;
 }
-.window-header {
+.moda__header {
   margin-top: 0;
   margin-bottom: 12px;
   font-weight: 700;
@@ -305,7 +302,7 @@ h3 {
   gap: 10px;
 }
 
-.modal-label {
+.modal-forms__label {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -316,12 +313,12 @@ h3 {
   letter-spacing: 0.01em;
 }
 
-.input-container {
+.modal-forms__input-container {
   position: relative;
   width: 100%;
 }
 
-.modal-input {
+.modal-forms__input {
   padding-left: 42px;
   width: 100%;
   height: 40px;
@@ -335,7 +332,7 @@ h3 {
 .modal-textarea:focus-within {
   border-color: var(--blue);
 }
-.input-container:focus-within .icon-modal {
+.input-container:focus-within .modal-forms__label {
   fill: var(--blue);
 }
 .modal-textarea {
@@ -356,7 +353,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.01em;
 }
-.icon-modal {
+.modal-forms__label {
   width: 18px;
   height: 18px;
   position: absolute;
