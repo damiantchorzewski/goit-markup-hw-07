@@ -33,5 +33,9 @@
       color: $white;
       background-color: $blue;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    &:hover, &:focus {color: $black-title; }
+            &:focus-within {
+              fill: $blue;
+            }
     }
   }

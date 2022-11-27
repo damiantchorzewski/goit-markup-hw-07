@@ -1,4 +1,4 @@
-.logo {
+.logo-black {
     padding-top: 24px;
     padding-bottom: 25px;
     display: flex;
@@ -7,12 +7,42 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: $blue;
+    color: $black-title;
     text-decoration: none;
-    &--black {
-      color: $black;
+   
+  
+    .logo-blue {color:$blue;}
+    
+    &:hover,
+    &:focus{
+        color: $blue}
     }
-    &--white {
-      color: $white;
+
+.logo-white {
+  padding-top: 24px;
+    padding-bottom: 25px;
+    display: flex;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $white;
+    text-decoration: none;
+    .logo--blue {
+        color: $blue;
+      }
+    
+      &:hover,
+      &:focus {
+        color: $blue
+      }
     }
-  }
+  
+
+  
+
+  
+    
+    
+  
