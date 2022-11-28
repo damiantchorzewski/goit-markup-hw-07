@@ -1,4 +1,5 @@
-
+@import "./utils/global";
+@import "./utils/variables";
 @import "./components/body";
 @import "./components/footer-left";
 @import "./components/portfolio-main";
@@ -11,5 +12,3 @@
 @import "./components/portfolio-buttons";
 @import "./components/portfolio-products";
 @import "./components/menu";
-@import "./utils/global";
-@import "./utils/variables";
