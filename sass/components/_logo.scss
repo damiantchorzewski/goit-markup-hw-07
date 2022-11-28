@@ -9,7 +9,9 @@
     letter-spacing: 0.03em;
     color: $black-title;
     text-decoration: none;
-   
+    
+      transition: color $transition-duration $cubic-bezier;
+      will-change: color;
   
     .logo-blue {color:$blue;}
     
@@ -28,7 +30,8 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: $white;
-    text-decoration: none;
+    text-decoration: none;transition: color $transition-duration $cubic-bezier;
+      will-change: color;
     .logo--blue {
         color: $blue;
       }

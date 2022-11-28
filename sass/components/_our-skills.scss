@@ -1,8 +1,8 @@
-.our-strengths {
+.our-skills {
   @extend %container;
 }
 
-.our-strengths-cards {
+.our-skills-cards {
   @extend %list;
   @extend %container;
   padding-top: 94px;
@@ -13,23 +13,23 @@
   column-gap: 30px;
 }
 
-.our-strengths-card {
+.our-skills-card {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.our-strengths-card__icon {
+.our-skills-card__icon {
   padding: 25px 100px;
   margin-bottom: 30px;
   background-color: $bg-grey;
   border-radius: 4px;
 }
 
-.our-strengths-icon {
+.our-skills-icon {
   width: 70px;
   height: 70px;
 }
 
-.our-strengths-card__title {
+.our-skills-card__title {
   margin-bottom: 10px;
   margin-top: 0;
   font-weight: 700;
@@ -39,7 +39,7 @@
   text-transform: uppercase;
 }
 
-.our-strengths-card__description {
+.our-skills-card__description {
   margin: 0;
   font-size: 14px;
   line-height: 1.71;
